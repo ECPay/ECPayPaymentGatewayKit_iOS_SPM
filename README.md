@@ -27,6 +27,8 @@ https://member.ecpay.com.tw/MemberReg/MerchantRegister
 
 https://github.com/ECPay/ECPayPaymentGatewayKit_iOS_SPM
 
+[![SwiftPM](https://img.shields.io/github/v/release/ECPay/ECPayPaymentGatewayKit_iOS_SPM)](https://github.com/ECPay/ECPayPaymentGatewayKit_iOS_SPM)
+
 ### Xcode 安裝步驟
 
 1. 開啟 Xcode 專案
