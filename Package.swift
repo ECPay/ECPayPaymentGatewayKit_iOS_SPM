@@ -6,7 +6,7 @@ let package = Package(
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "SPMText",
+            name: "ECPayPaymentGatewayKit_iOS_SPM",
             targets: ["ECPayPaymentGatewayKitWrapper"]  // 改指向 wrapper
         )
     ],
@@ -21,7 +21,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ECPayPaymentGatewayKit",
-            url: "https://github.com/ECPay/ECPayPaymentGatewayKit_iOS_SPM/releases/download/0.0.2/ECPayPaymentGatewayKit.zip",
+            url: "https://github.com/ECPay/ECPayPaymentGatewayKit_iOS_SPM/releases/download/0.0.3/ECPayPaymentGatewayKit.zip",
             checksum: "44ee1d6b99a8c4725e8e4266951c82b10573b2c5d96b2a7dd9f4e7ad80824f11"
         ),
         .target(
