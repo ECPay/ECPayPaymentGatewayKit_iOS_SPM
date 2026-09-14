@@ -22,8 +22,6 @@
 	<string>1.10.0</string>
 	<key>CFBundleVersion</key>
 	<string>1.10.0.24</string>
-	<key>ENV</key>
-	<string>beta</string>
 	<key>GitHash</key>
 	<string>4cf31ce</string>
 	<key>LSRequiresIPhoneOS</key>
