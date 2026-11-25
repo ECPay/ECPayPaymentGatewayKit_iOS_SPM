@@ -19,9 +19,9 @@
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.11.0</string>
+	<string>1.11.1</string>
 	<key>CFBundleVersion</key>
-	<string>1.11.0.19</string>
+	<string>1.11.1.3</string>
 	<key>GitHash</key>
 	<string>4cf31ce</string>
 	<key>LSRequiresIPhoneOS</key>
