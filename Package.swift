@@ -28,7 +28,7 @@ let package = Package(
         .binaryTarget(
             name: "ECPayPaymentGatewayKit",
             url: "https://github.com/ECPay/ECPayPaymentGatewayKit_iOS_SPM/releases/download/1.11.1/ECPayPaymentGatewayKit.zip",
-            checksum: "b908c4f03f8646e86bcb98f4f44d49e9824ae5f7b28a94bee683a971ef2e3bda"
+            checksum: "34a8ca5a8264785739fa79bc06db487a763ac97af2b5b470eea3b561b85694ef"
         )
         // 原本的 wrapper target:
         // ,
