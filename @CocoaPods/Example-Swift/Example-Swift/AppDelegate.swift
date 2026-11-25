@@ -8,7 +8,6 @@
 
 import UIKit
 import ECPayPaymentGatewayKit
-import IQKeyboardManagerSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         // 範例
-        IQKeyboardManager.shared.enable = true
         ECPayPaymentGatewayManager.sharedInstance().initialize(env: .Stage)
         return true
     }

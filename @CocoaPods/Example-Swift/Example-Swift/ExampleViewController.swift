@@ -8,9 +8,6 @@
 
 import UIKit
 import ECPayPaymentGatewayKit
-import PromiseKit
-import CryptoSwift
-import Alamofire
 
 class ExampleViewController: UIViewController {
     
