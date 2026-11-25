@@ -7,35 +7,43 @@ let package = Package(
     products: [
         .library(
             name: "ECPayPaymentGatewayKit_iOS_SPM",
-            targets: ["ECPayPaymentGatewayKitWrapper"]  // 改指向 wrapper
+            targets: ["ECPayPaymentGatewayKit"]
         )
+        // 原本的寫法(改指向 wrapper):
+        // .library(
+        //     name: "ECPayPaymentGatewayKit_iOS_SPM",
+        //     targets: ["ECPayPaymentGatewayKitWrapper"]  // 改指向 wrapper
+        // )
     ],
-    dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire", exact: "5.10.1"),
-        .package(url: "https://github.com/krzyzanowskim/CryptoSwift", exact: "1.8.0"),
-        .package(url: "https://github.com/hackiftekhar/IQKeyboardManager", exact: "7.0.0"),
-        .package(url: "https://github.com/evgenyneu/keychain-swift", exact: "20.0.0"),
-        .package(url: "https://github.com/mxcl/PromiseKit", exact: "6.13.0"),
-        .package(url: "https://github.com/yahoojapan/SwiftyXMLParser", exact: "5.6.0"),
-    ],
+    // 原本的 dependencies:
+    // dependencies: [
+    //     .package(url: "https://github.com/Alamofire/Alamofire", exact: "5.10.1"),
+    //     .package(url: "https://github.com/krzyzanowskim/CryptoSwift", exact: "1.8.0"),
+    //     .package(url: "https://github.com/hackiftekhar/IQKeyboardManager", exact: "7.0.0"),
+    //     .package(url: "https://github.com/evgenyneu/keychain-swift", exact: "20.0.0"),
+    //     .package(url: "https://github.com/mxcl/PromiseKit", exact: "6.13.0"),
+    //     .package(url: "https://github.com/yahoojapan/SwiftyXMLParser", exact: "5.6.0"),
+    // ],
     targets: [
         .binaryTarget(
             name: "ECPayPaymentGatewayKit",
             url: "https://github.com/ECPay/ECPayPaymentGatewayKit_iOS_SPM/releases/download/1.11.1/ECPayPaymentGatewayKit.zip",
             checksum: "b908c4f03f8646e86bcb98f4f44d49e9824ae5f7b28a94bee683a971ef2e3bda"
-        ),
-        .target(
-            name: "ECPayPaymentGatewayKitWrapper",
-            dependencies: [
-                "ECPayPaymentGatewayKit",
-                .product(name: "Alamofire", package: "Alamofire"),
-                .product(name: "CryptoSwift", package: "CryptoSwift"),
-                .product(name: "IQKeyboardManagerSwift", package: "IQKeyboardManager"),
-                .product(name: "KeychainSwift", package: "keychain-swift"),
-                .product(name: "PromiseKit", package: "PromiseKit"),
-                .product(name: "SwiftyXMLParser", package: "SwiftyXMLParser"),
-            ],
-            path: "ECPayPaymentGatewayKitWrapper"
         )
+        // 原本的 wrapper target:
+        // ,
+        // .target(
+        //     name: "ECPayPaymentGatewayKitWrapper",
+        //     dependencies: [
+        //         "ECPayPaymentGatewayKit",
+        //         .product(name: "Alamofire", package: "Alamofire"),
+        //         .product(name: "CryptoSwift", package: "CryptoSwift"),
+        //         .product(name: "IQKeyboardManagerSwift", package: "IQKeyboardManager"),
+        //         .product(name: "KeychainSwift", package: "keychain-swift"),
+        //         .product(name: "PromiseKit", package: "PromiseKit"),
+        //         .product(name: "SwiftyXMLParser", package: "SwiftyXMLParser"),
+        //     ],
+        //     path: "ECPayPaymentGatewayKitWrapper"
+        // )
     ]
 )
