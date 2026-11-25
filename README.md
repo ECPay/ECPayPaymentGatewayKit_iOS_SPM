@@ -51,7 +51,6 @@ https://github.com/ECPay/ECPayPaymentGatewayKit_iOS_SPM
 | --- | --- |
 | Alamofire | 5.10.1 |
 | CryptoSwift | 1.8.0 |
-| IQKeyboardManager | 7.0.0 |
 | PromiseKit | 6.13.0 |
 | SwiftyXMLParser | 5.6.0 |
 
