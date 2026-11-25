@@ -59,25 +59,13 @@ https://github.com/ECPay/ECPayPaymentGatewayKit_iOS_SPM
 
 ### 相機權限
 
-SDK 部分功能會使用相機，請於主專案的 `Info.plist` 加入：
-
-```text
-NSCameraUsageDescription
-```
-
-並填寫相機使用說明文字。
+* 因 SDK 內有部分網頁 (信用卡消費金額 20萬元以上，即開啟銀行端反洗錢機制功能檢查頁面) 需上傳身分證照片, 會需要用戶使用相機進行拍攝。
+* 承上, 相機授權，請於主專案的 Info.plist 檔中加入 NSCameraUsageDescription 權限說明字串，以確保應用程式能正常取得相機使用權限。
+* SDK 版本 1.8.1 範例程式我們也更新了 Info.plist, 添加了相機權限請求詢問字串
 
 ### IQKeyboardManager
 
-SDK 1.8.0 起，SDK 內部已關閉 IQKeyboardManager 的啟用設定，以避免部分情境閃退。
-
-如需啟用，請於 SDK 外部設定：
-
-```swift
-IQKeyboardManager.shared.enable = true
-```
-
-若不啟用，SDK 1.8.1 已修正信用卡編輯頁面點擊空白處無法關閉鍵盤的問題。
+SDK 1.11.1 起, 不引用 IQKeyboardManager, 若需使用則自行於專案內參考.
 
 ## 使用方式
 
