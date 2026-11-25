@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ECPay/ECPayPaymentGatewayKit_iOS_SPM",
       "state" : {
-        "revision" : "419538b87fad995f3c844d190bed8eae6e7fa56a",
-        "version" : "1.10.0"
+        "revision" : "37ab20bf5821c1da4ed9ccb3cb945588e1bad610",
+        "version" : "1.11.0"
       }
     },
     {

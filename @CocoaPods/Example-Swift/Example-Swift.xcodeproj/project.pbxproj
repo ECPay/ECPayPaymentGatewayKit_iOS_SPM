@@ -13,6 +13,7 @@
 		CA9B67832DBB2F3100F87E1E /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B67822DBB2F3100F87E1E /* ExampleViewController.swift */; };
 		CA9D2D4A25132BE3007D88AC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9D2D4925132BE3007D88AC /* UIViewController.swift */; };
 		D699ABDA2463E64C00096476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D699ABD92463E64C00096476 /* AppDelegate.swift */; };
+		A1B2C3D4E5F600000000AB01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600000000AB02 /* SceneDelegate.swift */; };
 		D699ABE32463E64D00096476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D699ABE22463E64D00096476 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		CAE60CB027609D5F006F9F0E /* Example-Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Example-Swift.entitlements"; sourceTree = "<group>"; };
 		D699ABD62463E64C00096476 /* Example-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D699ABD92463E64C00096476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F600000000AB02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D699ABE02463E64C00096476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D699ABE22463E64D00096476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D699ABE52463E64D00096476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				CA9D2D4825132BB5007D88AC /* extensions */,
 				D699ABE72463E64D00096476 /* Info.plist */,
 				D699ABD92463E64C00096476 /* AppDelegate.swift */,
+				A1B2C3D4E5F600000000AB02 /* SceneDelegate.swift */,
 				CA9B67822DBB2F3100F87E1E /* ExampleViewController.swift */,
 				D699ABE22463E64D00096476 /* Assets.xcassets */,
 				D699ABE42463E64D00096476 /* LaunchScreen.storyboard */,
@@ -194,6 +197,7 @@
 				CA9B67832DBB2F3100F87E1E /* ExampleViewController.swift in Sources */,
 				CA9D2D4A25132BE3007D88AC /* UIViewController.swift in Sources */,
 				D699ABDA2463E64C00096476 /* AppDelegate.swift in Sources */,
+				A1B2C3D4E5F600000000AB01 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
