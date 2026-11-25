@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "ECPayPaymentGatewayKit_iOS_SPM",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "ECPayPaymentGatewayKit_iOS_SPM",

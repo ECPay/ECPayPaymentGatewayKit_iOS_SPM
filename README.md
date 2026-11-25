@@ -17,7 +17,7 @@ https://member.ecpay.com.tw/MemberReg/MerchantRegister
 
 - Xcode 26+
 - Swift 6.2.3+
-- iOS 13+
+- iOS 15+
 
 > 自 2026 年 4 月 28 日起，App Store Connect 上傳的 App 需使用 Xcode 26 或以上版本建置。
 
